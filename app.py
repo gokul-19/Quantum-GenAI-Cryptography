@@ -148,7 +148,7 @@ with tab5:
     st.header("Quantum Visualizations")
 
     from visualizations import (
-        qkd_timeline, rotating_qubit_animation, qgan_latent_explorer,
+        rotating_qubit_animation, qgan_latent_explorer,
         encryption_pipeline, quantum_state_cloud, entropy_heatmap
     )
 
