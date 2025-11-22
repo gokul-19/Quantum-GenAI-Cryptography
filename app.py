@@ -144,7 +144,7 @@ with tab4:
             st.error(str(e))
 
 # ---------------- Tab 5: Visualizations ----------------
-with tab6:
+with tab5:
     st.header("Quantum Visualizations")
 
     from visualizations import (
