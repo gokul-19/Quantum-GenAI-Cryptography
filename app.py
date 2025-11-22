@@ -33,13 +33,15 @@ generator = None
 if startup_load == "Yes":
     generator = load_generator(checkpoint)
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "QGAN KeyGen", 
     "QKD Exchange", 
     "Encrypt / Decrypt", 
     "Wallet", 
-    "Visualizations"
+    "Visualizations",
+    "Future Expansion"
 ])
+
 
 # ---------------- Tab 1: QGAN KeyGen ----------------
 with tab1:
