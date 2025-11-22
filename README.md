@@ -5,8 +5,7 @@ A hybrid classical–quantum cryptography demonstration using QGAN-based key gen
 ## 🚀 Live Demo
 Click below to run the app:
 
-🔗 **Demo Link:** https://your-demo-link-here.com  
-(Replace with actual deployed Streamlit/Render/HuggingFace link)
+🔗 **Demo Link:** [https://your-demo-link-here.com ](https://quantum-genai-cryptography-k7w29g7jjtvw95appqfdyt2.streamlit.app/) 
 
 ## 📌 Features
 - QGAN-based key generation  
