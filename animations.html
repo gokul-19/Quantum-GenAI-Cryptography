@@ -1,0 +1,18 @@
+<!-- animations.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body{margin:0;background:#04040a;overflow:hidden}
+    .pulse {position:absolute; width:600px; height:600px; left:50%; top:40%; transform:translate(-50%,-50%); border-radius:50%;
+            background: radial-gradient(circle at 30% 30%, rgba(0,200,255,0.12), transparent 30%),
+                        radial-gradient(circle at 70% 70%, rgba(255,0,200,0.08), transparent 40%);
+            animation: s 8s infinite; filter: blur(24px);}
+    @keyframes s {0%{transform:translate(-50%,-50%) scale(0.8);opacity:0.75}50%{transform:translate(-50%,-50%) scale(1.05);opacity:1}100%{transform:translate(-50%,-50%) scale(0.8);opacity:0.75}}
+  </style>
+</head>
+<body>
+  <div class="pulse"></div>
+</body>
+</html>
