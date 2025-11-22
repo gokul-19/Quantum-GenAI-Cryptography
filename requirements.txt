@@ -1,0 +1,5 @@
+streamlit
+torch==2.7.0
+numpy
+pycryptodome
+plotly
